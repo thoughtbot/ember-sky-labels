@@ -1,6 +1,42 @@
-# Ember-sky-labels
+# Ember-Sky-Labels
 
-This README outlines the details of collaborating on this Ember addon.
+Fun, Compact & Accessible Forms
+
+[Try out a live demo](http://thoughtbot.github.io/sky-labels/)
+
+## Why SkyLabels?
+
+* Customizable through CSS. Changes animations, styles, etc.
+* Accessible (uses a label element).
+* Doesn't require that you change your layout. The labels slide above all other
+  content.
+* Easy to read the labels even when the input is focused.
+
+## Getting Started
+
+First, make sure you're using `ember-cli-sass`:
+
+```bash
+$ ember install ember-cli-sass
+```
+
+Next, install the addon:
+
+```bash
+$ ember install ember-sky-labels
+```
+
+Finally, wrap `<input>` and `<textarea>` tags with the `{{sky-label}}` component:
+
+```hbs
+{{#sky-label text="Username"}}
+  {{input type="text" value=username}}
+{{/sky-label}}
+
+{{#sky-label text="Password"}}
+  {{input type="password" value=password}}
+{{/sky-label}}
+```
 
 ## Installation
 

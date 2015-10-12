@@ -2,5 +2,9 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-sky-labels'
+  name: 'ember-sky-labels',
+
+  included: function(app) {
+
+  }
 };
