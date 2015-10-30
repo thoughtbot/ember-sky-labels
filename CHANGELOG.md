@@ -1,6 +1,11 @@
 master
 ------
 
+* Copy `_sky-labels.scss` into host application, removes
+  `addon/styles/addon.scss` [#3]
+
+[#3]: https://github.com/thoughtbot/ember-sky-labels/pull/3
+
 0.0.1
 -----
 
