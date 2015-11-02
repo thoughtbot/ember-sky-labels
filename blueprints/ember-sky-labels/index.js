@@ -2,7 +2,7 @@ module.exports = {
   description: 'Copy SkyLabels SCSS into the host application',
 
   afterInstall: function() {
-    var importStatement = '@import "sky-labels";';
+    var importStatement = '@import "sky-labels";\n';
 
     return this.insertIntoFile('app/styles/app.scss',  importStatement);
   },
