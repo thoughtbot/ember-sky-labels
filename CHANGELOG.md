@@ -1,6 +1,9 @@
 master
 ------
 
+0.0.2
+-----
+
 * Copy `_sky-labels.scss` into host application, removes
   `addon/styles/addon.scss` [#3]
 
